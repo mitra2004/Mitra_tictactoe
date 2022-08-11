@@ -1,0 +1,62 @@
+html, body {
+  background-color: rgb(91, 11, 122);
+  color: rgb(16, 235, 235);
+  width: 100%;
+  display:flex;
+}
+
+#root {
+  margin:auto;
+}
+
+#view1, #view2 {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(36, 218, 224) !important;
+  color:rgb(109, 9, 139) !important;
+  margin-top: 1em;
+}
+
+#gameView p, #resultView p  {
+  margin: 1em 2em;
+}
+
+.cell {
+  display: inline-block;
+  border: 1px solid rgb(125, 7, 155);
+  width: 250px;
+  height: 250px;
+  background-color: rgb(224, 7, 195);
+  overflow: hidden;
+  color: rgb(70, 206, 240);
+  font-size: 160px;
+  text-align: center;
+}
+
+#row0 .col0 {
+  border-top-left-radius: 10px;
+}
+#row0 .col2 {
+  border-top-right-radius: 10px;
+}
+#row2 .col0 {
+  border-bottom-left-radius: 10px;
+}
+#row2 .col2 {
+  border-bottom-right-radius: 10px;
+}
+
+.cell.winningLine {
+  color:rgb(0, 0, 0);
+ 
+}
+
+.attribution { 
+  font-size: 18px;
+   text-align:center; 
+}
+.attribution a {
+  color: rgb(240, 16, 202);
+}
